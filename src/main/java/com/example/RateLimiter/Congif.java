@@ -5,6 +5,12 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
+/**
+ * 
+ * @author jutekar
+ *
+ */
+
 @Configuration
 @EnableWebMvc
 public class Congif extends WebMvcConfigurerAdapter {

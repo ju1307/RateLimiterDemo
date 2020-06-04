@@ -5,6 +5,12 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 
+ * @author jutekar
+ *
+ */
+
 public class SimpleRateLimiter {
 
 	public static SimpleRateLimiter create(final int permits, final TimeUnit timePeriod) {
